@@ -50,7 +50,7 @@ sudo apt install libgtk-3-dev libgtk-layer-shell-dev python3-gi
 ### 1. Clone the Repository
 Clone this repository to your local machine:
 ```bash
-git clone https://github.com/yourusername/hyde-taskbar.git
+git clone https://github.com/EchoBolt-07/hyde-taskbar.git
 cd hyde-taskbar
 ```
 
