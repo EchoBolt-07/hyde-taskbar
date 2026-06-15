@@ -70,6 +70,23 @@ The installer will:
 
 ---
 
+## 🗑️ Uninstallation
+
+If you wish to remove the custom taskbar and clean up all configuration adjustments, run the uninstaller script:
+
+```bash
+chmod +x uninstall.sh
+./uninstall.sh
+```
+
+The uninstaller will:
+1. Stop the running taskbar background process.
+2. Delete the configuration files, Arch logo, and template assets located under `~/.config/hyde/taskbar/`.
+3. Remove the Wallbash configuration from `~/.config/hyde/wallbash/always/`.
+4. Safely clean up all startup triggers and window layerrules from `~/.config/hypr/userprefs.conf`.
+
+---
+
 ## 🎨 Customizing the Start Menu Logo
 If you want to use a custom image (e.g. a custom Arch logo or any other distro brand) for the start menu button:
 1. Place a `.png` file named `arch_logo.png` into `~/.config/hyde/taskbar/`.
