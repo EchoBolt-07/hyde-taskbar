@@ -1,0 +1,46 @@
+{
+  "pinned": [
+    {
+      "name": "Kitty Terminal",
+      "exec": "kitty",
+      "icon": "kitty"
+    },
+    {
+      "name": "Dolphin File Manager",
+      "exec": "dolphin",
+      "icon": "system-file-manager"
+    },
+    {
+      "name": "Brave",
+      "exec": "brave",
+      "icon": "brave-desktop"
+    },
+    {
+      "name": "Legacy Launcher",
+      "exec": "/usr/bin/legacy-launcher",
+      "icon": "legacy-launcher"
+    },
+    {
+      "name": "Spotify",
+      "exec": "spotify --uri=",
+      "icon": "spotify-client"
+    }
+  ],
+  "settings": {
+    "position": "bottom",
+    "alignment": "center",
+    "icon_size": 24,
+    "spacing": 17,
+    "bar_padding": 10,
+    "opacity": 0.23,
+    "theme": "glassmorphic",
+    "blur": false,
+    "offset_y": 6,
+    "offset_x": 0,
+    "auto_hide": true,
+    "auto_hide_delay": 2000,
+    "show_labels": false,
+    "border_radius": 15,
+    "show_active_only": false
+  }
+}

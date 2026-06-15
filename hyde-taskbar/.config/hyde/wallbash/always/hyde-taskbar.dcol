@@ -1,0 +1,13 @@
+${cacheDir}/wallbash/hyde-taskbar.css
+/* HyDE Custom Taskbar - Dynamically generated Wallbash colors */
+
+@define-color taskbar-bg #<wallbash_pry1>;
+@define-color taskbar-bg-rgba rgba(<wallbash_pry1_rgba>, @opacity@);
+@define-color taskbar-border rgba(<wallbash_txt1_rgba>, 0.15);
+@define-color taskbar-text #<wallbash_txt1>;
+@define-color taskbar-accent #<wallbash_1xa7>;
+@define-color taskbar-accent-rgba rgba(<wallbash_1xa7_rgba>, 1.0);
+@define-color taskbar-hover-rgba rgba(<wallbash_1xa7_rgba>, 0.25);
+@define-color taskbar-indicator-active rgba(<wallbash_1xa7_rgba>, 0.85);
+@define-color taskbar-indicator-running rgba(<wallbash_txt1_rgba>, 0.35);
+@define-color menu-bg-rgba rgba(<wallbash_pry1_rgba>, 0.75);
